@@ -59,6 +59,10 @@ Precisaremos instalar algumas ferramentas:
     Aqui rodei os testes Web:
 
     
+
+https://github.com/elvercioneto/smartbit-robot/assets/6169190/6a0fec01-ea4c-4e71-91f8-31d3c259551c
+
+
   
 - Aqui é um exemplo do Log do Robot com todos os passos do teste: 
 
