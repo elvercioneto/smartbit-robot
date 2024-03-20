@@ -36,7 +36,8 @@ Precisaremos instalar algumas ferramentas:
 - Após a instalação das ferramentas, precisamos colocar a API no ar, para isso devemos:
     -	Abrir o prompt de commando e ir até a pasta API e rodar o comando npm run dev 
 
-    https://github.com/elvercioneto/smartbit-robot/assets/6169190/767756e5-f353-49d0-a7a6-15ec427a79de
+    
+![001-subir_api](https://github.com/elvercioneto/smartbit-robot/assets/6169190/6f64cd71-12e5-4bf3-ba32-3ff15403c597)
 
 - Após isso, iremos colocar o site no ar:
     -	Em outra aba ir até a pasta WEB e rodar o comando npm run dev
