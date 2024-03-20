@@ -36,22 +36,20 @@ Precisaremos instalar algumas ferramentas:
 - Após a instalação das ferramentas, precisamos colocar a API no ar, para isso devemos:
     -	Abrir o prompt de commando e ir até a pasta API e rodar o comando npm run dev 
 
-    colocar gif aqui
+    https://github.com/elvercioneto/smartbit-robot/assets/6169190/767756e5-f353-49d0-a7a6-15ec427a79de
 
 - Após isso, iremos colocar o site no ar:
     -	Em outra aba ir até a pasta WEB e rodar o comando npm run dev
 
-    colocar gif aqui
+    https://github.com/elvercioneto/smartbit-robot/assets/6169190/4f721e36-1c3e-45d4-8182-5c59d5bad1e6
 
-- Para rodar os testes Mobile, devemos colocar o servidor do Appium no ar:
-    - Em outra aba ir até a pasta appium-qax e rodar o comando npx appium pra rodar o appium somente nessa pasta
-
-    colocar o gif aqui
 - Subir o banco através do Docker
-    colocar gif aqui
+  
+    [colocar gif aqui](https://github.com/elvercioneto/smartbit-robot/assets/6169190/6d88109e-4de4-4b5b-866c-23bd8923308f
+  
 - Logar no site http://localhost:3000/ e verificar se o banco está OK. ⚠ Nesse momento, fica dando erro e após pesquisar, descobri no site  https://cursos.alura.com.br/forum/topico-erro-password-authentication-failed-for-user-root-sqlstate-28p01-215361 que isso ocorre por conta de um conflito no PgSql, basta parar o serviço e o banco voltar a ficar disponível: 
 
-colocar gif aqui
+https://github.com/elvercioneto/smartbit-robot/assets/6169190/5d735480-5d03-4f75-a543-dd20fe1210a1
 
 - Abrir o VSCode na pasta do projeto e rodar os testes
     Aqui rodei os testes Web:
