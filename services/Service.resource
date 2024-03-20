@@ -3,6 +3,8 @@ Documentation        Camada de integração com a API
 
 Library        RequestsLibrary
 
+Variables      Env.py
+
 *** Keywords ***
 Set user token 
     ${payload}            Create Dictionary
@@ -12,7 +14,7 @@ Set user token
 
 
     ${resp}        POST
-    ...            url=http://localhost:3333/sessions
+    ...            url=${API_URL}/sessions
     ...            json=${payload}
     
 
@@ -30,7 +32,7 @@ Get account by name
     ...                Authorization=${token}
 
     ${resp}    GET    
-    ...            url=http://localhost:3333/accounts
+    ...            url=${API_URL}/accounts
     ...            params=${params} 
     ...            headers=${headers} 
     

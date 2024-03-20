@@ -7,8 +7,8 @@ Resource    ../resources/Base.resource
 Test Setup       Start Session
 Test Teardown    Take Screenshot
 
-Library        ../resources/libs/Database.py 
-Library        ../resources/libs/Account.py 
+Library        ../../libs/Database.py
+Library        ../../libs/Account.py 
 
 
 
