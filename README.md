@@ -42,23 +42,27 @@ Precisaremos instalar algumas ferramentas:
 - Após isso, iremos colocar o site no ar:
     -	Em outra aba ir até a pasta WEB e rodar o comando npm run dev
 
-    https://github.com/elvercioneto/smartbit-robot/assets/6169190/4f721e36-1c3e-45d4-8182-5c59d5bad1e6
+    ![002-subir_web](https://github.com/elvercioneto/smartbit-robot/assets/6169190/cb6f018c-916f-4283-91f7-49685fafc383)
+
 
 - Subir o banco através do Docker
   
-    [colocar gif aqui](https://github.com/elvercioneto/smartbit-robot/assets/6169190/6d88109e-4de4-4b5b-866c-23bd8923308f
+    ![004-subir-db-docker](https://github.com/elvercioneto/smartbit-robot/assets/6169190/d758b477-112c-4764-82fc-ff229a1db3fd)
+
   
 - Logar no site http://localhost:3000/ e verificar se o banco está OK. ⚠ Nesse momento, fica dando erro e após pesquisar, descobri no site  https://cursos.alura.com.br/forum/topico-erro-password-authentication-failed-for-user-root-sqlstate-28p01-215361 que isso ocorre por conta de um conflito no PgSql, basta parar o serviço e o banco voltar a ficar disponível: 
 
-https://github.com/elvercioneto/smartbit-robot/assets/6169190/5d735480-5d03-4f75-a543-dd20fe1210a1
+![005-parar-servico-pgAdmin](https://github.com/elvercioneto/smartbit-robot/assets/6169190/3e58e462-7b7a-4f80-981b-af17d212868c)
+
 
 - Abrir o VSCode na pasta do projeto e rodar os testes
     Aqui rodei os testes Web:
 
-    colocar gif aqui
+    
+  
 - Aqui é um exemplo do Log do Robot com todos os passos do teste: 
 
-colocar gif aqui
+
 
 - Agora vamos rodar os testes Mobile
  - Em uma outra aba do Git Bash, coloquei o servidor do Appium no ar:
